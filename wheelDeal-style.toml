@@ -1,0 +1,80 @@
+[config-header]
+font = ["LeagueGothic-Regular"]
+
+[default_table]
+css_element_type = "table"
+scope = "class"
+border-colour-table = [186,142,35]
+header-background-colour = [186,142,35]
+header-text-colour = [255,255,255]
+id-text-colour = [140.0,222.0,31.0]
+id-column-hide = true
+
+[light_table-no_header]
+css_element_type = "table"
+scope = "id"
+border-colour-header = [[255,255,255],[255,255,255],[186,142,35],[255,255,255]]
+border-colour-body = [255,255,255]
+border-colour-table = [255,255,255]
+header-background-colour = [255,255,255]
+header-text-colour = [0,0,0]
+#header-hide = true
+id-column-hide = true
+
+#[table_hard-to-find]
+#css_element_type = "table"
+#scope = "id"
+#minimum-column-size = ["100px", "70px", "", "100px"]
+
+[primary]
+css_element_type = "button"
+scope = "class"
+background-colour = [186,142,35]
+text-colour = [0,0,0]
+border-colour = [0,0,0]
+hover-text-colour = [186,142,35]
+hover-background-colour = [0,0,0]
+hover-border-colour = [0,0,0]
+#focus-text-colour = [0,0,0]
+#focus-background-colour = [186,142,35]
+#focus-border-colour = [186,142,35]
+
+[secondary]
+css_element_type = "button"
+scope = "class"
+background-colour = [255,255,255]
+text-colour = [0,0,0]
+border-colour = [0,0,0]
+hover-text-colour = [186,142,35]
+hover-background-colour = [255,255,255]
+hover-border-colour = [186,142,35]
+#focus-text-colour = [0,80,82]
+#focus-background-colour = [255,255,255]
+#focus-border-colour = [0,80,82]
+
+[tertiary]
+css_element_type = "button"
+scope = "class"
+background-colour = [255,255,255]
+text-colour = [0,0,0]
+hover-text-colour = [186,142,35]
+hover-background-colour = [255,255,255]
+#focus-text-colour = [0,80,82]
+#focus-background-colour = [255,255,255]
+
+[default_expander]
+css_element_type = "expander"
+scope = "class"
+header-text-colour = [0,0,0]
+hover-text-colour = [186,142,35]
+border-colour = [0,0,0]
+
+[default_input]
+css_element_type = "input"
+scope = "class"
+focus-border-colour = [186,142,35]
+
+[default_dropdown]
+css_element_type = "dropdown"
+scope = "class"
+focus-border-colour = [186,142,35]
