@@ -1,0 +1,156 @@
+[config-header]
+font = ["Arimo-Regular", "LeagueGothic-Regular"]
+
+# Button styling by ID
+[my_custom_button]
+css_element_type = "button"
+scope = "id"
+hover-text-colour = [255, 0, 0, 1]  # Red text on hover
+hover-background-colour = [0, 255, 0, 1]  # Green background on hover
+hover-border-colour = [0, 0, 255, 1]  # Blue border on hover
+hover-transition = "all 0.3s ease"
+click-text-colour = [255, 255, 255, 1]  # White text when clicked
+click-background-colour = [255, 0, 255, 1]  # Magenta background when clicked
+click-border-colour = [0, 255, 255, 1]  # Cyan border when clicked
+click-transition = "all 0.2s ease"
+focus-text-colour = [0, 0, 0, 1]  # Black text when focused
+focus-background-colour = [255, 255, 0, 1]  # Yellow background when focused
+focus-border-colour = [128, 128, 128, 1]  # Gray border when focused
+
+# Button styling by class
+[primary_button]
+css_element_type = "button"
+scope = "class"
+hover-text-colour = [255, 255, 255, 1]
+hover-background-colour = [0, 123, 255, 1]
+hover-border-colour = [0, 123, 255, 1]
+hover-transition = "all 0.3s ease"
+click-text-colour = [255, 255, 255, 1]
+click-background-colour = [0, 86, 179, 1]
+click-border-colour = [0, 86, 179, 1]
+click-transition = "all 0.2s ease"
+focus-text-colour = [255, 255, 255, 1]
+focus-background-colour = [0, 123, 255, 1]
+focus-border-colour = [0, 123, 255, 1]
+
+# Table styling by ID
+[my_custom_table]
+css_element_type = "table"
+scope = "id"
+text-colour = [0, 0, 0, 1]  # Black text
+background-colour = [255, 255, 255, 1]  # White background
+border-colour = [200, 200, 200, 1]  # Light gray border
+border-size = "1px"
+header-text-colour = [255, 255, 255, 1]  # White header text
+header-background-colour = [70, 130, 180, 1]  # Steel blue header
+header-border-colour = [70, 130, 180, 1]
+header-border-size = "1px"
+row-hover-background-colour = [240, 248, 255, 1]  # Alice blue on row hover
+column-2-text-colour = [255, 0, 0, 1]  # Red text in column 2
+column-3-background-colour = [255, 255, 0, 1]  # Yellow background in column 3
+column-4-border-colour = [0, 255, 0, 1]  # Green border in column 4
+
+# Table styling by class
+[data_table]
+css_element_type = "table"
+scope = "class"
+text-colour = [33, 37, 41, 1]  # Dark gray text
+background-colour = [255, 255, 255, 1]
+border-colour = [222, 226, 230, 1]  # Light gray border
+border-size = "1px"
+header-text-colour = [255, 255, 255, 1]
+header-background-colour = [52, 58, 64, 1]  # Dark gray header
+header-border-colour = [52, 58, 64, 1]
+header-border-size = "1px"
+row-hover-background-colour = [248, 249, 250, 1]  # Very light gray on hover
+column-2-text-colour = [220, 53, 69, 1]  # Bootstrap danger red
+column-3-background-colour = [255, 193, 7, 1]  # Bootstrap warning yellow
+column-4-border-colour = [40, 167, 69, 1]  # Bootstrap success green
+
+# Expander styling by ID
+[my_expander]
+css_element_type = "expander"
+scope = "id"
+header-text-colour = [255, 255, 255, 1]
+header-background-colour = [33, 150, 243, 1]  # Blue header
+header-border-colour = [33, 150, 243, 1]
+header-border-size = "1px"
+content-text-colour = [0, 0, 0, 1]
+content-background-colour = [255, 255, 255, 1]
+content-border-colour = [200, 200, 200, 1]
+content-border-size = "1px"
+
+# Expander styling by class
+[info_expander]
+css_element_type = "expander"
+scope = "class"
+header-text-colour = [255, 255, 255, 1]
+header-background-colour = [23, 162, 184, 1]  # Info blue
+header-border-colour = [23, 162, 184, 1]
+header-border-size = "1px"
+content-text-colour = [33, 37, 41, 1]
+content-background-colour = [248, 249, 250, 1]
+content-border-colour = [23, 162, 184, 1]
+content-border-size = "1px"
+
+# Input field styling by ID
+[my_input]
+css_element_type = "input"
+scope = "id"
+text-colour = [0, 0, 0, 1]
+background-colour = [255, 255, 255, 1]
+border-colour = [206, 212, 218, 1]
+border-size = "1px"
+focus-text-colour = [0, 0, 0, 1]
+focus-background-colour = [255, 255, 255, 1]
+focus-border-colour = [0, 123, 255, 1]
+focus-border-size = "2px"
+placeholder-text-colour = [108, 117, 125, 1]
+
+# Input field styling by class
+[text_input]
+css_element_type = "input"
+scope = "class"
+text-colour = [33, 37, 41, 1]
+background-colour = [255, 255, 255, 1]
+border-colour = [206, 212, 218, 1]
+border-size = "1px"
+focus-text-colour = [33, 37, 41, 1]
+focus-background-colour = [255, 255, 255, 1]
+focus-border-colour = [0, 123, 255, 1]
+focus-border-size = "2px"
+placeholder-text-colour = [108, 117, 125, 1]
+
+# Dropdown styling by ID
+[my_dropdown]
+css_element_type = "dropdown"
+scope = "id"
+text-colour = [0, 0, 0, 1]
+background-colour = [255, 255, 255, 1]
+border-colour = [206, 212, 218, 1]
+border-size = "1px"
+focus-text-colour = [0, 0, 0, 1]
+focus-background-colour = [255, 255, 255, 1]
+focus-border-colour = [0, 123, 255, 1]
+focus-border-size = "2px"
+option-text-colour = [0, 0, 0, 1]
+option-background-colour = [255, 255, 255, 1]
+option-hover-text-colour = [255, 255, 255, 1]
+option-hover-background-colour = [0, 123, 255, 1]
+
+# Dropdown styling by class
+[select_dropdown]
+css_element_type = "dropdown"
+scope = "class"
+text-colour = [33, 37, 41, 1]
+background-colour = [255, 255, 255, 1]
+border-colour = [206, 212, 218, 1]
+border-size = "1px"
+focus-text-colour = [33, 37, 41, 1]
+focus-background-colour = [255, 255, 255, 1]
+focus-border-colour = [0, 123, 255, 1]
+focus-border-size = "2px"
+option-text-colour = [33, 37, 41, 1]
+option-background-colour = [255, 255, 255, 1]
+option-hover-text-colour = [255, 255, 255, 1]
+option-hover-background-colour = [0, 123, 255, 1]

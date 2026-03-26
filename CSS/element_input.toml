@@ -1,0 +1,15 @@
+[id]
+rule_focus_input  = '.element-container:has(#||configName||) + div[data-testid="stTextInputRootElement"]:focus-within'
+
+[class]
+rule_focus_input  = 'div[data-testid="stTextInputRootElement"]:focus-within'
+
+[focus-border-colour]
+rule_group = 'rule_focus_input'
+rule_name  = ''
+rule_type  = 'CustomRule_border-colour'
+
+[focus-border-size]
+rule_group = 'rule_focus_input'
+rule_name  = ''
+rule_type  = 'CustomRule_border-size'

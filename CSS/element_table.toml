@@ -1,0 +1,105 @@
+[id]
+rule_default_table  = '.element-container:has(#||ConfigName||) + div table'
+rule_default_header = '.element-container:has(#||ConfigName||) + div table thead tr th[scope="col"]'
+rule_default_body   = '.element-container:has(#||ConfigName||) + div table tbody tr td'
+rule_id_header      = '.element-container:has(#||ConfigName||) + div table tr th:first-child'
+rule_id_body        = '.element-container:has(#||ConfigName||) + div table tr td:first-child'
+rule_column         = '.element-container:has(#||ConfigName||) + div table td:nth-child(||Column||), th:nth-child(||Column||)'
+
+[class]
+rule_default_table  = 'table'
+rule_default_header = 'table thead tr th[scope="col"]'
+rule_default_body   = 'table tbody tr td'
+rule_id_header      = 'table tr th:first-child'
+rule_id_body        = 'table tr td:first-child'
+rule_column         = 'table td:nth-child(||Column||), th:nth-child(||Column||)'
+
+[border-colour-table]
+rule_group = 'rule_default_table'
+rule_name  = ''
+rule_type  = 'CustomRule_border-colour'
+
+[border-size-table]
+rule_group = 'rule_default_table'
+rule_name  = ''
+rule_type  = 'CustomRule_border-size'
+
+[border-colour-header]
+rule_group = 'rule_default_header'
+rule_name  = ''
+rule_type  = 'CustomRule_border-colour'
+
+[border-size-header]
+rule_group = 'rule_default_header'
+rule_name  = ''
+rule_type  = 'CustomRule_border-size'
+
+[border-colour-body]
+rule_group = 'rule_default_body'
+rule_name  = ''
+rule_type  = 'CustomRule_border-colour'
+
+[border-size-body]
+rule_group = 'rule_default_body'
+rule_name  = ''
+rule_type  = 'CustomRule_border-size'
+
+[header-hide]
+rule_group = 'rule_default_header'
+rule_name  = 'display'
+rule_type  = '"none"'
+
+[header-background-colour]
+rule_group = 'rule_default_header'
+rule_name  = 'background-color'
+rule_type  = 'colour'
+
+[header-text-colour]
+rule_group = 'rule_default_header'
+rule_name  = 'color'
+rule_type  = 'colour'
+
+[header-text-size]
+rule_group = 'rule_default_header' 
+rule_name  = 'font-size'
+rule_type  = 'value'
+
+[body-background-colour]
+rule_group = 'rule_default_body'
+rule_name  = 'background-color'
+rule_type  = 'colour'
+
+[body-text-colour]
+rule_group = 'rule_default_body'
+rule_name  = 'color'
+rule_type  = 'colour'
+
+[body-text-size]
+rule_group = 'rule_default_body'
+rule_name  = 'font-size'
+rule_type  = 'value'
+
+[id-column-hide]
+rule_group = ['rule_id_header','rule_id_body','rule_id_header','rule_id_body']
+rule_name  = ['border-left','border-left','display','display']
+rule_type  = ['"0"','"0"','"none"','"none"']
+
+[id-background-colour]
+rule_group = 'rule_id_body'
+rule_name  = 'background-color'
+rule_type  = 'value'
+
+[id-text-colour]
+rule_group = 'rule_id_body'
+rule_name  = 'color'
+rule_type  = 'colour'
+
+[id-text-size]
+rule_group = 'rule_id_body'
+rule_name  = 'font-size'
+rule_type  = 'value'
+
+[minimum-column-size]
+rule_group = 'rule_column'
+rule_name  = 'min-width'
+rule_type  = 'CustomRule_column-value'

@@ -1,0 +1,59 @@
+[id]
+rule_default_header         = '.element-container:has(#||ConfigName||) + div summary'
+rule_hover_header           = '.element-container:has(#||ConfigName||) + div summary:hover'
+rule_hover_header_text      = '.element-container:has(#||ConfigName||) + div summary:hover p'
+rule_hover_header_widget    = '.element-container:has(#||ConfigName||) + div .e10vaf9m1'
+rule_default_body           = '.element-container:has(#||ConfigName||) + div div[data-testid="stExpanderDetails"]'
+rule_default_container      = '.element-container:has(#||ConfigName||) + div details'
+rule_onOpen_header          = '.element-container:has(#||ConfigName||) + div details[open] summary'
+rule_onOpen_container       = '.element-container:has(#||ConfigName||) + div details[open]'
+
+[class]
+rule_default_header         = 'summary'
+rule_hover_header           = 'summary:hover'
+rule_hover_header_text      = 'summary:hover p'
+rule_hover_header_widget    = 'summary:hover svg[data-testid="stExpanderToggleIcon"]'
+rule_default_body           = 'div[data-testid="stExpanderDetails"]'
+rule_default_container      = 'details'
+rule_onOpen_header          = 'details[open] summary'
+rule_onOpen_container       = 'details[open]'
+
+[border-width]
+rule_group = 'rule_default_container'
+rule_name  = ''
+rule_type  = 'CustomRule_border-size'
+
+[border-colour]
+rule_group = 'rule_default_container'
+rule_name  = ''
+rule_type  = 'CustomRule_border-colour'
+
+[hover-text-colour]
+rule_group = ['rule_hover_header_text', 'rule_hover_header_widget']
+rule_name  = ['color', 'fill']
+rule_type  = ['colour', 'colour']
+
+[hover-background-colour]
+rule_group = 'rule_hover_header'
+rule_name  = 'background-color'
+rule_type  = 'value'
+
+[header-background-colour]
+rule_group = 'rule_default_header'
+rule_name  = 'background-color'
+rule_type  = 'colour'
+
+[header-text-colour]
+rule_group = 'rule_default_header'
+rule_name  = 'color'
+rule_type  = 'colour'
+
+[header-text-size]
+rule_group = 'rule_default_header'
+rule_name  = 'font-size'
+rule_type  = 'value'
+
+[body-background-colour]
+rule_group = 'rule_default_body'
+rule_name  = 'background-color'
+rule_type  = 'colour'

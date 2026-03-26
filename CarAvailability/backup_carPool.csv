@@ -1,0 +1,16 @@
+﻿CarId,Manufacturer,Model,DailyCost,Condition,Seats,BootSpace,GearType,FuelType,Category,ComfortRating,SpeedRating,OffRoadRating,FuelUseRating,Location,Availability
+C001,Toyota,Corolla,45,8,5,470,Auto,Hybrid,Sedan,7,6,2,9,Gatwick Airport,Available
+C002,Fiat,500,30,6,4,185,Manual,Petrol,Economy,5,4,1,8,Birmingham City Centre,Available
+C003,Ford,Explorer,85,10,7,515,Auto,Petrol,SUV,8,7,7,5,Birmingham City Centre,Maintenance
+C004,Volkswagen,Golf,50,8,5,380,Manual,Petrol,Hatchback,8,7,2,7,Heathrow Airport,Available
+C005,Tesla,Model 3,95,8,5,425,Auto,Electric,Luxury,9,9,1,10,Heathrow Airport,Available
+C006,Jeep,Wrangler,110,6,5,880,Auto,Petrol,4x4,6,5,10,4,Gatwick Airport,Available
+C007,Mercedes,E-Class,130,10,5,540,Auto,Diesel,Luxury,10,8,2,7,Gatwick Airport (Relocated),Available
+C008,Hyundai,i10,28,6,5,252,Manual,Petrol,Compact,5,3,1,9,Heathrow Airport,Available
+C009,Kia,Sportage,65,8,5,591,Auto,Hybrid,SUV,8,6,4,8,Gatwick Airport,Available
+C010,BMW,4 Series,120,8,4,440,Auto,Petrol,Coupe,8,9,1,6,Gatwick Airport,Available
+C011,Nissan,Qashqai,55,6,5,504,Auto,Petrol,Crossover,7,6,3,7,Manchester Airport,Available
+C012,Volvo,XC90,140,8,7,680,Auto,Hybrid,Luxury SUV,10,7,5,6,Heathrow Airport (Relocated),Available
+C013,Chevrolet,Spark,25,4,4,315,Manual,Petrol,Economy,4,3,1,9,Birmingham City Centre,Available
+C014,Land Rover,Defender,160,10,5,857,Auto,Diesel,4x4,8,7,10,5,Manchester Airport,Available
+C015,Audi,A3,75,8,5,380,Auto,Petrol,Premium,8,8,2,7,Heathrow Airport,Available

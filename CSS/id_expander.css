@@ -1,0 +1,18 @@
+#__id__ {
+    display: none;
+}
+.element-container:has(#__id__) {
+    display: none;
+}
+.element-container:has(#__id__) + div summary {
+    border-radius: 0.5rem; 
+    }
+.element-container:has(#__id__) + div details[open] summary {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.element-container:has(#__id__) + div div[data-testid="stExpanderDetails"]{
+    padding-top: 1rem;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
