@@ -1,0 +1,9 @@
+#__ConfigName__ {
+    display: none;
+}
+.element-container:has(#__ConfigName__) {
+    display: none;
+}
+.element-container:has(#__ConfigName__) + div button{
+    padding: 0.25rem 0.75rem;
+}

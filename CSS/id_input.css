@@ -1,0 +1,9 @@
+#__id__ {
+    display: none;
+}
+.element-container:has(#__id__) {
+    display: none;
+}
+.element-container:has(#__id__) + div[data-testid="stTextInputRootElement"]{
+    border-radius: 0.5rem;
+}

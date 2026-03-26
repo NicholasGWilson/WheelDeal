@@ -1,0 +1,86 @@
+[id]
+rule_default = '.element-container:has(#||ConfigName||) + div button'
+rule_hover = '.element-container:has(#||ConfigName||) + div button:hover'
+rule_click = '.element-container:has(#||ConfigName||) + div button:active'
+rule_focus = '.element-container:has(#||ConfigName||) + div button:focus'
+
+[class]
+rule_default = 'button[kind="||ConfigName||"]'
+rule_hover = 'button[kind="||ConfigName||"]:hover'
+rule_click = 'button[kind="||ConfigName||"]:active'
+rule_focus = 'button[kind="||ConfigName||"]:focus:not(:active)'
+
+[hover-text-colour]
+rule_group = 'rule_hover'
+rule_name = 'color'
+rule_type = 'colour'
+
+[hover-background-colour]
+rule_group = 'rule_hover'
+rule_name = 'background-color'
+rule_type = 'colour'
+
+[hover-border-colour]
+rule_group = 'rule_hover'
+rule_name = 'border-color'
+rule_type = 'CustomRule_border-colour'
+
+[hover-transition]
+rule_group = 'rule_hover'
+rule_name = 'transition'
+rule_type = 'value'
+
+[click-text-colour]
+rule_group = 'rule_click'
+rule_name = 'color'
+rule_type = 'colour'
+
+[click-background-colour]
+rule_group = 'rule_click'
+rule_name = 'background-color'
+rule_type = 'colour'
+
+[click-border-colour]
+rule_group = 'rule_click'
+rule_name = 'border-color'
+rule_type = 'colour'
+
+[click-transition]
+rule_group = 'rule_click'
+rule_name = 'transition'
+rule_type = 'value'
+
+[focus-text-colour]
+rule_group = 'rule_focus'
+rule_name = 'color'
+rule_type = 'colour'
+
+[focus-background-colour]
+rule_group = 'rule_focus'
+rule_name = 'background-color'
+rule_type = 'colour'
+
+[focus-border-colour]
+rule_group = 'rule_focus'
+rule_name = 'border-color'
+rule_type = 'colour'
+
+[focus-transition]
+rule_group = 'rule_focus'
+rule_name = 'transition'
+rule_type = 'value'
+
+[text-colour]
+rule_group = 'rule_default'
+rule_name = 'color'
+rule_type = 'colour'
+
+[background-colour]
+rule_group = 'rule_default'
+rule_name = 'background-color'
+rule_type = 'colour'
+
+[border-colour]
+rule_group = 'rule_default'
+rule_name = 'border-color'
+rule_type = 'colour'

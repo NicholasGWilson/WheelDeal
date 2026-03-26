@@ -1,0 +1,12 @@
+summary {
+    border-radius: 0.5rem; 
+}
+details[open] summary {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+div[data-testid="stExpanderDetails"]{
+    padding-top: 1rem;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
